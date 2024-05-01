@@ -17,8 +17,8 @@ def api_calling(question, history):
                     "content": inp
                 }
             ],
-            model="ft:gpt-3.5-turbo-0125:personal::9C5X6ovO",
-            temperature=0,
+            model="gpt-4-turbo",
+            temperature=1,
             max_tokens=1024,
             n=1,
             stop=None
